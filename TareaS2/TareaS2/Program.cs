@@ -2,8 +2,8 @@
 
 Expresion c1 = new Expresion()
 {
-    numero1 = 10,
-    numero2 = 20,
+    numero1 = 9,
+    numero2 = 2,
 };
 
 Console.WriteLine("========== INICIO =========== ");

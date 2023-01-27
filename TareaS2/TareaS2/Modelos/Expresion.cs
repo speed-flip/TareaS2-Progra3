@@ -2,27 +2,27 @@
 {
     public class Expresion { 
         
-        public int numero1 { get; set; } = 0;
-        public int numero2 { get; set; } = 0;
+        public double numero1 { get; set; } = 0;
+        public double numero2 { get; set; } = 0;
 
-        public int suma()
+        public double suma()
         {
             return numero1 + numero2;
         }
-        public int resta()
+        public double resta()
         {
             return numero1 - numero2;
         }
-        public int multiplicacion()
+        public double multiplicacion()
         {
             return numero1 * numero2;
         }
-        public int division()
+        public double division()
         {
             return numero1 / numero2;
         }
 
-        public int maximo()
+        public double maximo()
         {
             if(numero1 > numero2)
             {
@@ -33,7 +33,7 @@
                 return numero2;
             }
         }
-        public int minimo()
+        public double minimo()
         {
             if (numero1 < numero2)
             {
